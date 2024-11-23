@@ -6,15 +6,15 @@ const Profile: React.FC = () => {
     <SC.CardCon>
       <SC.CardHeader></SC.CardHeader>
       <SC.ContentCon>
-        <div>
+        <SC.User>
             <Avatar/>
-          <div>
+          <SC.UserData>
             <h3>Victor Crest</h3>
             <p>26</p>
-          </div>
+          </SC.UserData>
           <p>London</p>
-        </div>
-        <ul>
+        </SC.User>
+        <SC.StatsLink>
           <li>
             <h4>80K</h4>
             <p>Followers</p>
@@ -27,7 +27,7 @@ const Profile: React.FC = () => {
             <h4>1.4K</h4>
             <p>Photos</p>
           </li>
-        </ul>
+        </SC.StatsLink>
       </SC.ContentCon>
     </SC.CardCon>
   );
