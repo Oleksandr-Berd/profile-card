@@ -13,6 +13,10 @@ export const CardCon = styled.div`
   overflow: hidden;
 
   z-index: 1;
+
+  @media (min-width: 1280px){
+    width: 350px;
+  }
 `;
 
 export const CardHeader = styled.div`
@@ -66,6 +70,8 @@ export const StatsLink = styled.ul`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  padding-top: 24px;
 
   & > li:not(:last-child) {
     margin-right: 36px;

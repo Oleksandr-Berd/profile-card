@@ -35,6 +35,10 @@ export const AppCustom = styled.div`
 
     background: url(${backUp}) no-repeat center center;
     background-size: cover;
+
+    @media (min-width: 1280px) {
+      transform: translate(-15%, -15%);
+    }
   }
 
   &::after {
@@ -52,5 +56,8 @@ export const AppCustom = styled.div`
     background: url(${backBottom}) no-repeat center center;
     background-size: cover;
 
+    @media (min-width: 1280px) {
+      transform: translate(5%, 45%);
+    }
   }
 `;
