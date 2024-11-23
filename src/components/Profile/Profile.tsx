@@ -1,9 +1,13 @@
+import Avatar from "../Avatar/Avatar";
+import * as SC from "./ProfileStyled"
+
 const Profile: React.FC = () => {
   return (
-    <div>
-      <div></div>
-      <div>
+    <SC.CardCon>
+      <SC.CardHeader></SC.CardHeader>
+      <SC.ContentCon>
         <div>
+            <Avatar/>
           <div>
             <h3>Victor Crest</h3>
             <p>26</p>
@@ -24,8 +28,8 @@ const Profile: React.FC = () => {
             <p>Photos</p>
           </li>
         </ul>
-      </div>
-    </div>
+      </SC.ContentCon>
+    </SC.CardCon>
   );
 };
 
